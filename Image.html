@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+ background-color:rgb(136, 161, 188);
+ 
+}
+h1{
+  background-image: url("https://media.istockphoto.com/id/1488944909/photo/environment-concept-green-glass-globe-with-a-tree-in-the-forest-with-sunlight-sustainability.jpg?s=1024x1024&w=is&k=20&c=DGLZxWOjtngjQ02uhe_NzVnVGZQ7X00UONsSrvfufuc=");
+  background-position: 0%;
+  color:whitesmoke;
+  text-shadow: 1px 2px blue;
+}
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+  
+}
+
+
+.container {
+  position: relative;
+  margin-top: 50px;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: rgb(13, 14, 13);
+  font-weight: bold;
+  font-size: 30px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  margin-left:300px;
+  margin-right: 300px;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: white;
+  border-radius: 30px;
+ 
+}
+
+
+.numbertext {
+  color: #0f0e0e;
+  font-size: 20px;
+  padding: 8px 12px;
+  position:absolute ;
+  top: 0;
+  margin-inline-start: 300px;
+  margin-top: 500px;
+margin-top: auto;
+}
+.caption-container {
+  text-align: center;
+  background-color: white;
+  padding: 2px 16px;
+  color:black;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width:10%;
+  margin-top: 10px;
+  margin-left: px;
+  margin-right: px;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.nav{
+border: 1px;
+  background-color: rgb(8, 8, 8);
+  padding:6px;
+  margin-left: 50px;
+
+}
+
+a{
+  background-color: rgb(99, 141, 186);
+  color:rgb(241, 238, 225);
+  text-decoration: none;
+  margin-right: 100px;
+  padding: 13px;
+  border-radius: 15px;
+}
+a:hover{
+  background-color: rgb(74, 127, 184);
+}
+
+
+</style>
+<body>
+
+<h1 style="text-align:center">NATURAL IMAGES</h1>
+
+<nav class="navbar">
+  <a href="/html/" style="margin-left: 500px;">Home</a> 
+  <a href="/css/">About</a> 
+  <a href="/js/">Content</a> 
+</nav>
+
+<center>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 7</div>
+    <img src="https://media.istockphoto.com/id/1488944909/photo/environment-concept-green-glass-globe-with-a-tree-in-the-forest-with-sunlight-sustainability.jpg?s=1024x1024&w=is&k=20&c=DGLZxWOjtngjQ02uhe_NzVnVGZQ7X00UONsSrvfufuc=" style="width:50%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 7</div>
+    <img src="https://media.istockphoto.com/id/1173544006/photo/winding-road.jpg?s=1024x1024&w=is&k=20&c=Lqsjw4-n5asC6S84gZ2baSOaQeXCYOssvZf4zgQY-SQ=" style="width:50%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 7</div>
+    <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-green-field-scenery-free-photo.jpg?w=2210&quality=70" style="width:50%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 7</div>
+    <img src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=2210&quality=70" style="width:50%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 7</div>
+    <img src="https://media.istockphoto.com/id/1183984164/photo/waterfall-in-karuizawa-japan.jpg?s=1024x1024&w=is&k=20&c=VqKqkre5R0IqfaoCLPpy4yEOm2guMTtzJ1GfDvbUcYA=" style="width:50%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 7</div>
+    <img src="https://images.pexels.com/photos/36478/amazing-beautiful-beauty-blue.jpg?cs=srgb&dl=pexels-pixabay-36478.jpg&fm=jpg" style="width:50%">
+  </div>
+  <div class="mySlides">
+    <div class="numbertext">7 / 7</div>
+    <img src="https://media.istockphoto.com/id/895454734/photo/beautiful-lotus-flower-on-the-water-in-a-park-close-up.webp?b=1&s=170667a&w=0&k=20&c=Sji5ikDkPgmwqZkYHfAUpmtxUytmhdc9L9jIjEgQgDs=" style="width:50%">
+  </div>
+</center>
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+<br>
+    <div class="column"> 
+        <img class="demo cursor" src="https://media.istockphoto.com/id/1488944909/photo/environment-concept-green-glass-globe-with-a-tree-in-the-forest-with-sunlight-sustainability.jpg?s=1024x1024&w=is&k=20&c=DGLZxWOjtngjQ02uhe_NzVnVGZQ7X00UONsSrvfufuc="style="width:150px" height="100px" onclick="currentSlide(2)" alt="Nature Image">
+      </div>
+    <div class="column">
+      <img class="demo cursor" src="https://media.istockphoto.com/id/1173544006/photo/winding-road.jpg?s=1024x1024&w=is&k=20&c=Lqsjw4-n5asC6S84gZ2baSOaQeXCYOssvZf4zgQY-SQ="style="width:150px" height="100px" onclick="currentSlide(2) 
+      " alt="Nature Image">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-green-field-scenery-free-photo.jpg?w=2210&quality=70"style="width:150px" height="100px" onclick="currentSlide(3)" alt="Nature Image">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg?w=2210&quality=70" style="width:150px" height="100px"  onclick="currentSlide(4)" alt="Nature Image">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://media.istockphoto.com/id/1183984164/photo/waterfall-in-karuizawa-japan.jpg?s=1024x1024&w=is&k=20&c=VqKqkre5R0IqfaoCLPpy4yEOm2guMTtzJ1GfDvbUcYA="style="width:150px" height="100px" onclick="currentSlide(5)" alt="Nature Image">
+    </div>
+
+    <div class="column">
+      <img class="demo cursor" src="https://images.pexels.com/photos/36478/amazing-beautiful-beauty-blue.jpg?cs=srgb&dl=pexels-pixabay-36478.jpg&fm=jpg" style="width:150px" height="100px" onclick="currentSlide(6)" alt="Nature Image">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="https://media.istockphoto.com/id/895454734/photo/beautiful-lotus-flower-on-the-water-in-a-park-close-up.webp?b=1&s=170667a&w=0&k=20&c=Sji5ikDkPgmwqZkYHfAUpmtxUytmhdc9L9jIjEgQgDs=" style="width:150px" height="100px" onclick="currentSlide(7)" alt="Nature Image">
+    </div>
+  </div>
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+  function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("demo cursor");
+  let captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+
+</script>
+    
+</body>
+</html>
